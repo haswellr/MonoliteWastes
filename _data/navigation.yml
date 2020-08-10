@@ -1,0 +1,47 @@
+main:
+  - title: "Posts"
+    description: "Posts by year"
+    url: /year-archive/
+  - title: "Categories"
+    description: "Posts by category"
+    url: /categories
+  - title: "Tags"
+    description: "Posts by tag"
+    url: /tags/
+  - title: "About"
+    description: "About the blog"
+    url: /about
+
+sidebar_nav:
+  - title: Home
+    url: /
+
+  - title: Tabletop
+    children:
+      - title: "Series: 5E Game Structures"
+        children:
+          - title: "Intro"
+            url: /docs/configuration/
+          - title: "1. Dungeon Crawling"
+            url: /docs/navigation/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
+
